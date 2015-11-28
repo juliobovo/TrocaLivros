@@ -1,0 +1,198 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/10/2014, 19:46:41
+    Author     : Julio
+*/
+
+/* importando as fontes do google fonte */
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+
+
+/*  definindo  fonte do site*/   
+html,body {
+    font-family: 'Roboto', sans-serif;
+    color: #8a8a8a;
+}
+
+
+/* Cabeçalho , apenas o retangulo */
+#top {
+    position: fixed;
+    background: #48d1cc;
+    height: 60px;
+    width: 100%;
+    z-index: 997;
+    color: #fff;
+    
+    /* sombra do retangulo do top */
+    -webkit-box-shadow: 0 5px 30px 1px #8c8c8c;
+       -moz-box-shadow: 0 5px 30px 1px #8c8c8c;
+            box-shadow: 0 5px 30px 1px #8c8c8c;
+}
+
+  /* conteudo do site*/
+#content {
+    background: #fff;
+    padding-top: 80px;
+}
+   /* Logotipo do troca livro*/
+#logo {
+    font-size:30px;
+    padding-top: 8px;
+    cursor: default;
+    font-family: 'Bangers', cursive;
+}
+
+  /* menu da pagina index , que apresenta o botoes cadastr-se e login*/
+.menu-top {
+    text-align: right;
+    padding-top: 12px;
+}
+  
+    /* quadrado de login da tela inicial*/
+#quadradologin{
+    display: none;
+    position: fixed;
+    background: #eee;
+    width: 300px;
+    z-index: 999;
+    top: 70px;
+    margin-right: 15px;
+    right: 8.33333333%;
+    border: 1px solid #8c8c8c;
+    border-radius: 4px;
+    padding: 20px;
+  
+    -webkit-box-shadow: 0 5px 30px 1px #8c8c8c;
+       -moz-box-shadow: 0 5px 30px 1px #8c8c8c;
+            box-shadow: 0 5px 30px 1px #8c8c8c;
+}
+
+  /* menu na tela principal localizada no top */
+#menu-principal{
+    text-align: center;
+    padding-top: 0px;
+    font-size: 15px;
+    text-decoration: none;
+    font-size:20px;
+}
+.menu-iten{
+}
+  /* classe Comando para sombrear o menu quando passar o mouse em cima */  
+.menu-iten:hover{
+    background: #ddd;
+    text-decoration: none;
+}
+   /*  */
+.click-off-screen {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 998;
+}
+
+ /* Texto que existe acima do cadastro */
+#textcadastro{
+    font-size:40px;
+    padding-top: 10px;
+    cursor: default;
+    font-family: 'Bangers', cursive;
+          
+}
+  /* botao de finalizar cadastros    */
+#btn_finalizarcadastro{
+    margin-bottom: 50px;
+}
+
+#textominhaconta{
+    padding-top: 10px;
+    left: 15px;
+    color: #000;
+    font-family: 'Bangers', cursive;
+    font-size: 17px;
+}
+/* todo link fica com cor orignal da letra */
+.menu_a{
+    text-decoration:none;
+    color:black;
+    font-family: 'Bangers', cursive;
+}
+#logo_a{
+    text-decoration:none;
+    color:white;
+}
+#tabela_livros{
+    color: black;
+    margin: auto;
+    display:inline-block;
+}
+
+#tabela_livros1{
+    width: 1200px;
+    color: black;
+}
+
+#tabela_livros_principal{
+    //border: 1px solid black;
+    color: black;
+    margin: auto;
+    display:inline-block;
+    width: 600px;
+    float: left;
+    //padding-left: 50px;   
+    margin-left: 35px;
+}
+#tabela_livro{
+    display: inline-block;
+    width: 600px;
+    //border:1px solid black;
+    color: black;
+    float: right;
+    margin:auto;
+    margin-right: 35px;
+}
+#texto_tabela{
+    font-family: Arial;
+}
+#titulo{
+    padding-left: 50px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    color:black;
+}
+
+#titulo2{
+    //margin-left: 200px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+#icone_adicionar{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+#titulo_botao{
+    border:1px solid #DDDDDD;
+    border-bottom-style: none;
+    height: 70px;
+    //width: 600px;
+}
+#icone_pesquisar{
+    width: 20px;
+    margin-right:-25px;
+}
+#icone_deletar{
+    text-align: center;
+    margin-left: 5px;
+    width: 20px;
+    margin-right: -900px;
+}
